@@ -6,7 +6,6 @@ const mongoose = require("mongoose");
 const { log, error } = require("./utlis/logger");
 const { URL } = require("./utlis/config");
 const usersRouter = require("./controllers/usersRoutes");
-const emailController = require("./controllers/emailController");
 const loginRouter = require("./controllers/loginRoutes");
 const apiRoutes = require('./routes/api');
 
